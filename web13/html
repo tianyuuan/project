@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!-- 在外部样式 style1.css中设置了：h1{color:blue;} -->
+ <link rel="stylesheet" type="text/css" href="style1.css" />
+ <style type="text/css">
+  /* 内部样式 */
+  h1 {color: green;}
+ </style>
+ <!-- 在外部样式 style2.css中设置了：h1{color:purple;} -->
+ <link rel="stylesheet" type="text/css" href="style2.css" />
+</head>
+<body>
+ /* 内嵌样式 */ 
+ <h1 style="color:red">漫步时尚广场</h3>
+</body>
+</html>
